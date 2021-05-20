@@ -44,7 +44,11 @@ public class SessionData : MonoBehaviour
     public Image gameItem;
     public static int slotcount = 6;
     public int NumberEmptyInvSlots;
-    
+
+    //Cameras
+
+    public Camera mainCamera;
+    public Camera secondaryCamera;
 
 
     // Start is called before the first frame update
@@ -123,8 +127,20 @@ public class SessionData : MonoBehaviour
         if(SceneManager.GetActiveScene().name.Contains("3D")){
 
 
-
+            if (mainCamera == null) {
+                mainCamera = GameObject.Find("Default Camera").GetComponent<Camera>();
+            };
+            if (secondaryCamera == null) {
+                secondaryCamera = GameObject.Find("Secondary Camera").GetComponent<Camera>();
+            };
+            
+            
             AlwaysInventoryCanvas.SetActive(true);
+            
+            if(mainCamera.enabled != true && !Input.GetKey(KeyCode.I)){
+                mainCamera.enabled = true;
+            };
+            
 
             
             InvSlotsVis = InvSlots;
@@ -144,10 +160,14 @@ public class SessionData : MonoBehaviour
             
             if(Input.GetKeyDown(KeyCode.I)) {
             KeyPressInventoryCanvas.SetActive(true);
+            mainCamera.enabled = false;
+            secondaryCamera.enabled = true;;
             
         }
         if(Input.GetKeyUp(KeyCode.I)) {
             KeyPressInventoryCanvas.SetActive(false);
+            mainCamera.enabled = true;
+            secondaryCamera.enabled = false;;
         }
 
         if(Input.GetKeyUp(KeyCode.Alpha1)) {

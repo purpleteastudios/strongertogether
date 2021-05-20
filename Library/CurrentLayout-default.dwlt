@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2140
-    y: 166
+    x: 0
+    y: 0
     width: 1920
     height: 1050
   m_ShowMode: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
   m_RootView: {fileID: 4}
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 42352
+  m_LastSelectedObjectID: 45398
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -490,8 +490,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2140
-    y: 166
+    x: 0
+    y: 0
     width: 1920
     height: 1029
   m_ViewDataDictionary: {fileID: 0}
@@ -622,21 +622,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Develop\Unity - 3D\StrongerTogether
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b64b0000
-    m_LastClickedID: 19382
+    m_SelectedIDs: be4b0000
+    m_LastClickedID: 19390
     m_ExpandedIDs: 00000000b64b0000b84b0000ba4b0000bc4b0000be4b0000c04b0000c24b0000c44b0000c64b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -786,20 +786,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ca4b0000
+      m_SelectedIDs: 96590000
       m_LastClickedID: 0
-      m_ExpandedIDs: c6d8ffff4ad9ffff8ce6ffffc2ebffff92edffff36eeffffb6eeffffa8efffff76f0ffffd6f3ffffbcf5ffffa0f7ffffbaf9ffff56fbfffff4ffffffe44e00003c510000585200006a53000094660000b0670000
+      m_ExpandedIDs: d89effffc0aeffffd0b0ffff12b2ffff18bfffffdcc0ffff96c5ffff16cfffff30d8fffff2dfffff9ae0ffffa0e1ffff7ee5ffff56ebffff5eedffff22efffffeef3ffff56fbfffff4ffffff905a000056670000ec680000f0760000327800005e790000e2b1000098bd00007edf0000bee00000e2e400001ae5000040f00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: InvCanvas
-        m_OriginalName: InvCanvas
+        m_Name: Camera
+        m_OriginalName: Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 26544
+        m_UserData: -22468
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -848,9 +848,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 960, y: 504, z: 0}
+    m_Target: {x: 1377.7859, y: 478.9151, z: 357.08542}
     speed: 2
-    m_Value: {x: 960, y: 504, z: 0}
+    m_Value: {x: 1377.7859, y: 478.9151, z: 357.08542}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -901,9 +901,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.034509704, y: 0.12946863, z: -0.004503585, w: -0.99097264}
   m_Size:
-    m_Target: 1084.2583
+    m_Target: 881.40656
     speed: 2
-    m_Value: 1084.2583
+    m_Value: 881.40656
   m_Ortho:
     m_Target: 0
     speed: 2
