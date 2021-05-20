@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/3D TD/3D TOP DOWN.unity
     guid: 94e2ecca6236e034dac17de93f69c398
   - enabled: 1
-    path: Assets/Scenes/3D 1P/S_3D FIRST PERSON.unity
+    path: Assets/Scenes/3D 1P/3D FIRST PERSON.unity
     guid: b975fd618954fc44a8833bf4d9714d5a
   - enabled: 1
     path: Assets/Scenes/2D/2D.unity

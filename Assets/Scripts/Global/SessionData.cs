@@ -116,12 +116,14 @@ public class SessionData : MonoBehaviour
         }
 
         //INVENTORY
-            
-        
-        if(SceneManager.GetActiveScene().name.Contains("3D FIRST PERSON")){
+        if(!SceneManager.GetActiveScene().name.Contains("3D")){
+            AlwaysInventoryCanvas.SetActive(false);
+        };
+
+        if(SceneManager.GetActiveScene().name.Contains("3D")){
 
 
-            Debug.Log(SceneManager.GetActiveScene().name);
+
             AlwaysInventoryCanvas.SetActive(true);
 
             

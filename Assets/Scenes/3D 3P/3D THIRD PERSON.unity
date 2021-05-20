@@ -1603,10 +1603,10 @@ GameObject:
   - component: {fileID: 1449182912}
   - component: {fileID: 1449182911}
   - component: {fileID: 1449182915}
+  - component: {fileID: 1449182916}
   - component: {fileID: 1449182910}
   - component: {fileID: 1449182909}
   - component: {fileID: 1449182914}
-  - component: {fileID: 1449182916}
   m_Layer: 0
   m_Name: DefaultPlayer
   m_TagString: Untagged
